@@ -506,40 +506,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.-top-10 {
-  top: -2.5rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-5 {
-  top: 1.25rem;
-}
-
-.top-6 {
-  top: 1.5rem;
-}
-
-.right-5 {
-  right: 1.25rem;
-}
-
-.-top-20 {
-  top: -5rem;
-}
-
-.-top-12 {
-  top: -3rem;
+.-top-14 {
+  top: -3.5rem;
 }
 
 .left-60 {
   left: 15rem;
-}
-
-.-top-14 {
-  top: -3.5rem;
 }
 
 .m-3 {
@@ -613,10 +585,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
@@ -633,84 +601,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.25rem;
 }
 
-.h-0 {
-  height: 0px;
-}
-
-.h-52 {
-  height: 13rem;
+.h-28 {
+  height: 7rem;
 }
 
 .h-auto {
   height: auto;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
-.h-28 {
-  height: 7rem;
+.h-52 {
+  height: 13rem;
 }
 
 .w-auto {
   width: auto;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
 .w-full {
   width: 100%;
 }
 
-.w-5\/6 {
-  width: 83.333333%;
-}
-
-.w-3\/6 {
-  width: 50%;
-}
-
-.w-2\/6 {
-  width: 33.333333%;
-}
-
-.w-1\/6 {
-  width: 16.666667%;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-56 {
-  width: 14rem;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-40 {
   width: 10rem;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .transform {
@@ -760,11 +672,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(17 17 17 / var(--tw-bg-opacity));
 }
 
-.bg-purple {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 80 255 / var(--tw-bg-opacity));
-}
-
 .bg-acid {
   --tw-bg-opacity: 1;
   background-color: rgb(206 255 0 / var(--tw-bg-opacity));
@@ -808,14 +715,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-3 {
   padding-top: 0.75rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
 }
 
 .text-center {
@@ -907,16 +806,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
-  .sm\:top-6 {
-    top: 1.5rem;
-  }
-
   .sm\:left-auto {
     left: auto;
-  }
-
-  .sm\:hidden {
-    display: none;
   }
 
   .sm\:h-0 {
@@ -925,10 +816,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:w-4\/6 {
     width: 66.666667%;
-  }
-
-  .sm\:w-40 {
-    width: 10rem;
   }
 
   .sm\:flex-row {
@@ -1003,10 +890,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
   .md\:justify-end {
     justify-content: flex-end;
   }
@@ -1046,10 +929,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
-  .lg\:top-3 {
-    top: 0.75rem;
-  }
-
   .lg\:top-2 {
     top: 0.5rem;
   }
