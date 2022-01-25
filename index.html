@@ -32,61 +32,55 @@
     </style>
 </head>
 
-<body class="bg-light-grey font-mono text-sm md:text-base">
+<body class="bg-light-grey font-mono text-sm lg:text-base">
     <!-- Header -->
-    <header class="bg-black text-white p-8">
+    <header class="bg-black text-white">
         <nav>
-            <div class="flex container justify-between mx-auto">
+            <div class="flex container justify-between mx-auto p-12">
                 <div class="">
                     <img class="h-5 w-auto md:h-6" src="assets/img/dombur_logo-w.svg" alt="">
                 </div>
                 <div class="hidden flex-col text-right md:inline-flex">
-                    <a class="block mb-5 uppercase hover:text-acid hover:underline" href="#agency">Agentur</a>
-                    <a class="block mb-5 uppercase hover:text-acid hover:underline" href="#methods">Methoden</a>
-                    <a class="block mb-5 uppercase hover:text-acid hover:underline" href="#strategy">Strategie</a>
+                    <a class="block mb-5 md:mb-7 uppercase hover:text-acid hover:underline" href="#agency">Agentur</a>
+                    <a class="block mb-5 md:mb-7 uppercase hover:text-acid hover:underline" href="#methods">Methoden</a>
+                    <a class="block mb-5 md:mb-7 uppercase hover:text-acid hover:underline"
+                        href="#strategy">Strategie</a>
                     <a class="block uppercase hover:text-acid hover:underline" href="#contact">Kontakt</a>
                 </div>
             </div>
         </nav>
         <!-- Hero -->
-        <section id="agency" class="container mx-auto mt-24 md:mt-40">
+        <section id="agency" class="container mx-auto mt-6 p-12 md:mt-20">
             <h1 class="font-display text-3xl pb-3 border-b border-purple md:text-6xl xl:text-7xl">Wir entwickeln
                 Lösungen,
                 durch
                 die
-                Besucher:innen zu Käufer:innen werden.
+                Besucher zu Käufern werden.
             </h1>
-            <div class="flex flex-col-reverse mt-6 sm:justify-between sm:flex-row">
-                <p class="w-full sm:w-4/6 md:w-4/6 xl:w-2/4">Wir wandeln die Bedürfnisse Ihrer Kund:innen in
+            <div class="flex flex-col mt-6 md:items-start lg:flex-row lg:justify-between lg:items-center">
+                <p class="md:w-5/6 lg:w-2/4 xl:w-3/5">Wir wandeln die Bedürfnisse Ihrer Kunden in
                     eindrucksvolle
                     Erlebnisse, damit Ihr
                     Business nachhaltig
                     wachsen kann. Durch unser holistisches Framework passen wir unsere Optimierungen individuell auf Ihr
                     Business an.</p>
-                <!-- <div
-                    class="relative overflow-visible w-40 h-28 -top-14 left-60 sm:h-0 sm:left-auto md:w-56 lg:top-2 xl:-top-10">
-                    <a href="#methods" class="w-40 h-auto md:w-56">
-                        <img class="circle-spin w-40 ht-auto md:w-56" src="assets/img/domnbur_methods.svg" alt="">
-                    </a>
-                </div> -->
+                <button class="bg-acid hover:bg-purple text-black hover:text-gray-600 mt-8 py-4 px-6 lg:mt-0"
+                    type="submit">Gratis Strategie-Beratung vereinbaren</button>
 
             </div>
         </section>
     </header>
     <main>
         <!-- Methods -->
-        <section id="methods" class="flex flex-col container mx-auto mt-16 md:mt-28 md:p-8 xl:mt-40 xl:flex-row">
-            <div class="md:w-4/6 xl:w-2/6">
-                <h2 class="font-display text-2xl md:text-4xl">Mit diesen Methoden skalieren wir Ihr Business
+        <section id="methods" class="flex flex-col container mx-auto mt-10 p-12 md:mt-16 xl:mt-28 xl:flex-row">
+            <div class="md:w-5/6 xl:w-2/6">
+                <h2 class="font-display text-2xl md:text-4xl lg:text-5xl xl:text-4xl xl:mr-10 2xl:mr-8">Mit diesen
+                    Methoden
+                    skalieren wir
+                    Ihr Business
                 </h2>
-                <!-- <svg class="inline-flex mt-4 md:mt-8" width="392" height="36" viewBox="0 0 392 36" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 18L391 18" stroke="#969696" stroke-miterlimit="10" stroke-linejoin="bevel" />
-                    <path d="M374.4 1L391.6 18.1L374.4 35.3" stroke="#969696" stroke-miterlimit="10"
-                        stroke-linejoin="bevel" />
-                </svg> -->
             </div>
-            <div class="md:grid md:grid-cols-2 md:gap-24 md:mt-16 lg:ml-20 xl:mt-0 xl:w-4/6">
+            <div class="md:grid md:grid-cols-2 md:gap-24 md:mt-16 xl:mt-0 xl:w-4/6">
                 <div class="my-10 md:my-0">
                     <h3 class="font-display text-xl md:text-2xl">User Research</h3>
                     <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
@@ -132,31 +126,33 @@
             </div>
         </section>
         <!-- Contact-Teaser -->
-        <section id="contact-teaser" class="bg-black text-white mt-16 p-8 md:mt-28 lg:p-16 xl:p-20 xl:mt-40">
+        <section id="contact-teaser" class="bg-black text-white mt-14 p-12 md:mt-16 xl:mt-28">
             <div class="container mx-auto">
-                <h2 class="font-display text-2xl mb-2 md:text-4xl lg:text-5xl xl:mb-0">Wir zeigen
+                <h2 class="font-display text-2xl mb-2 md:text-4xl lg:text-5xl">Wir zeigen
                     Ihnen
-                    wo Ihr Online-Shop<br><span class="text-acid">Kunden
+                    wo Ihr Online-Shop <span class="text-acid">Kunden
                         und Umsatz verliert</span>.
                 </h2>
-                <div class="xl:flex xl:justify-between xl:mt-8">
-                    <p class="pb-8 xl:pb-0 xl:w-2/3">Wir kreieren für Ihr Business einen individuellen Prozess, mit dem
+                <div class="xl:flex xl:justify-between">
+                    <p class="xl:w-2/3">Wir kreieren für Ihr Business einen individuellen Prozess, mit dem
                         Sie
                         Ihre Ziele erreichen und nachhaltiges Wachstum anstoßen. Lassen Sie uns in einem gratis
                         Erstgespräch
                         über Ihre Ziele sprechen!</p>
-                    <a class="mt-8 md:mt-0" href="#contact"><button
-                            class="bg-acid hover:bg-purple text-black hover:text-gray-600 py-4 px-6">Beratungsgespräch
-                            vereinbaren</button></a>
+                    <div class="flex justify-center md:justify-end">
+                        <a href="#contact"><button
+                                class="bg-acid hover:bg-purple text-black hover:text-gray-600 mt-8 py-4 px-6 xl:mt-0">Beratungsgespräch
+                                vereinbaren</button></a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Strategy -->
-        <section id="strategy" class="container mx-auto mt-16 md:mt-28 md:p-8 xl:mt-40">
+        <section id="strategy" class="container mx-auto mt-10 p-12 md:mt-16 xl:mt-28">
             <div class="xl:w-5/6 mx-auto">
-                <h2 class="font-display text-2xl xl:text-6xl">Nachhaltiges Wachstum <br>durch einen
+                <h2 class="font-display text-2xl md:text-4xl lg:text-5xl">Nachhaltiges Wachstum durch einen
                     individuellen Methodenmix.</h2>
-                <p class="mt-6">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                <p class="mt-10">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
                     gubergren, no
                     sea
                     takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
@@ -174,16 +170,17 @@
                     takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
                     sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
                     erat, sed diam voluptua.</p>
-                <div class="text-center mt-8 md:mt-16 xl:mt-20">
-                    <button class="bg-acid hover:bg-purple text-black hover:text-gray-600 py-4 px-6">Beratungsgespräch
+                <div class="text-center mt-6 xl:mt-20">
+                    <button
+                        class="bg-acid hover:bg-purple text-black hover:text-gray-600 mt-8 py-4 px-6">Beratungsgespräch
                         vereinbaren</button>
                 </div>
             </div>
         </section>
         <!-- Mission -->
-        <section id="mission" class="bg-black mt-16 p-8 md:mt-32 xl:mt-40 xl:p-0 xl:py-20">
+        <section id="mission" class="bg-black mt-14 p-12 md:mt-16 xl:mt-28">
             <div class="container mx-auto">
-                <p class="font-display text-white text-2xl md:text-4xl xl:text-6xl">Wir bauen <span
+                <p class="font-display text-white text-2xl md:text-4xl lg:text-5xl">Wir bauen <span
                         class="text-purple">Know-How</span>
                     über Ihre bestehenden und potentiellen Kunden auf und entwickeln daraus <span
                         class="text-purple">positive Marken- und Nutzungserlebnisse</span>, die aus
@@ -191,9 +188,9 @@
             </div>
         </section>
         <!-- Contact -->
-        <section id="contact" class="container mx-auto mt-16 md:mt-32 md:p-8 xl:mt-40">
+        <section id="contact" class="container mx-auto mt-10 p-12 md:mt-16 xl:mt-28">
             <div class="xl:w-5/6 xl:mx-auto">
-                <h2 class="font-display xl:w-4/6 text-2xl md:text-3xl xl:text-4xl">Lassen Sie uns unverbindlich über
+                <h2 class="font-display text-2xl md:text-4xl lg:text-5xl xl:w-5/6">Lassen Sie uns unverbindlich über
                     Ihre
                     Ziele und die wichtigsten Kennzahlen sprechen!</h2>
                 <p class="mt-8">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
@@ -202,41 +199,41 @@
                     takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
                     sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
                     erat, sed diam voluptua.</p>
-                <form class="mx-auto mt-16" action="https://formspree.io/f/mjvlgdja" method="POST">
+                <form class="mx-auto mt-16" action="https://formspree.io/f/xwkyvdlk" method="POST">
                     <div class="xl:grid xl:grid-cols-2 xl:gap-20 xl:mb-10">
                         <div class="w-full mb-10 xl:mb-0">
-                            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                            <label for="fname" class="leading-7 text-sm text-gray-600">Vorname</label>
                             <input type="text" id="name" name="name"
-                                class="block w-full bg-transparent border-b pt-3 text-gray-700 leading-8">
+                                class="block w-full bg-transparent border-b p-3 text-gray-700 leading-8">
                         </div>
-                        <div class="w-full mb-10 md:mb-0">
-                            <label for="position" class="leading-7 text-sm text-gray-600">Position</label>
-                            <input type="text" id="position" name="position"
-                                class="block w-full bg-transparent border-b pt-3 text-gray-700 leading-8">
+                        <div class="w-full mb-10 xl:mb-0">
+                            <label for="name" class="leading-7 text-sm text-gray-600">Nachname</label>
+                            <input type="text" id="name" name="name"
+                                class="block w-full bg-transparent border-b p-3 text-gray-700 leading-8">
                         </div>
                     </div>
 
-                    <div class="xl:grid xl:grid-cols-2 xl:gap-20 mxl:mb-10">
+                    <div class="xl:grid xl:grid-cols-2 xl:gap-20 xl:mb-10">
                         <div class="w-full mb-10 xl:mb-0">
-                            <label for="website" class="leading-7 text-sm text-gray-600">Website Ihres
-                                Unternehmens</label>
+                            <label for="website" class="leading-7 text-sm text-gray-600">Website, die Sie optimieren
+                                möchten</label>
                             <input type="text" id="website" name="website"
-                                class="block w-full bg-transparent border-b pt-3 text-gray-700 leading-8">
+                                class="block w-full bg-transparent border-b p-3 text-gray-700 leading-8">
                         </div>
                         <div class="w-full mb-10 xl:mb-0">
                             <label for="email" class="leading-7 text-sm text-gray-600">E-Mail</label>
                             <input type="email" id="email" name="email"
-                                class="block w-full bg-transparent border-b pt-3 text-gray-700 leading-8">
+                                class="block w-full bg-transparent border-b p-3 text-gray-700 leading-8">
                         </div>
                     </div>
 
-                    <div class="w-full mb-10">
+                    <div class="w-full">
                         <label for="message" class="leading-7 text-sm text-gray-600">Nachricht</label>
                         <textarea id="message" name="message"
-                            class="block w-full h-52 py-3 px-4 mt-1 text-gray-700"></textarea>
+                            class="block w-full h-52 p-3 mt-1 text-gray-700"></textarea>
                     </div>
                     <div class="flex justify-center md:justify-end">
-                        <button class="bg-acid hover:bg-purple text-black hover:text-gray-600 py-4 px-6"
+                        <button class="bg-acid hover:bg-purple text-black hover:text-gray-600 mt-8 py-4 px-6"
                             type="submit">Anfrage absenden</button>
                     </div>
                 </form>
